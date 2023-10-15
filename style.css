@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 4%;
+    padding-top: 4%;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    color: #fff;
+}
+
+.container h1{
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.container h1 img{
+    width: 60px;
+}
+.container button{
+    display: flex;
+    padding: 10px 20px;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(180.8deg, rgb(139, 10, 130) 6.9%, rgb(73, 6, 70) 73.2%);
+    margin-top: 40px;
+    
+}
+.container button img{
+    width: 30px;
+}
+.container button:active{
+    background: linear-gradient(180.8deg, rgb(236, 19, 222) 6.9%, rgb(19, 2, 18) 73.2%);
+}
+.input-box{
+    width: 100%;
+    max-width: 600px;
+    min-height: 160px;
+    height: auto;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    border-radius: 20px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+/* for responsive */
+
+
+
+@media (max-width: 768px) {
+    .input-box{
+        width: 400px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .container h1{
+        font-size: 20px;
+    }
+    .container h1 img{
+        width:35px;
+    }
+    .container button{
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .container button img{
+        width: 18px;
+    }
+    .input-box{
+        width: 100%;
+        max-width: 285px;
+        min-height: 110px;
+        padding: 10px;
+        font-size: 15px;
+        
+    } 
+    .input-box img{
+        width: 20px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    
+  }
+  
+  
+  
+  
+  
+  
